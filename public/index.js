@@ -7,7 +7,7 @@ btns.forEach((el, i) => {
 
 async function getTab(tabIndex) {
   try {
-    const rs = await fetch(`/tab/${tabIndex}`,
+    const rs = await fetch(`/tabs/${tabIndex}`,
       {
         method: "get",
         headers: {
